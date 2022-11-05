@@ -1,3 +1,109 @@
-body {
-    background-color: rgb(135, 216, 135)
+
+/* Fuente generica*/
+*{
+  font-family: cover;
+   
+  
+}
+/*Tamaño de Textos*/
+p{
+  font-size:150%
+}
+
+/*logo pequeño*/
+#logo{
+  
+  margin: auto;
+  height: 210px;
+  width: 300px;
+  text-align: center;
+  
+ 
+}
+
+/*Tamaño Titulos*/
+.Titulos{
+  font-size: 20px;
+}
+/* Barra de Navegación */
+.container-fluid
+{
+
+  background-color:#055305;
+  text-align: center;
+  font-size: x-large;
+  
+}
+.nav ul li a:hover{
+  background-color:  #055305;
+}
+
+
+
+.AS22J
+{
+    background-image: url();    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-title 
+{
+    text-align: center;
+    
+
+
+}
+.card-text
+{
+    text-align: center;
+    background-image: url();    
+
+    
+}
+.Titulo-servicio
+{
+    text-align: center;
+    background-color: #055305;
+    
+    
+
+}
+.card-img-top
+{
+  width: 40% ;
+  opacity:80%;
+   
+}
+
+.portada{
+  width: 100% ;
+  opacity:90%;
+  height:auto; 
+  
+}
+.formulario
+{
+  text-align: center;
+}
+
+/*flexbox
+.Cajas{
+
+}
+*/
+
+.fondo
+{
+    text-align: center;
+    background-image: url(https://d3nqlc6zkdn9bc.cloudfront.net/wp-content/uploads/2021/03/08164428/Efectos-de-fumigar.jpg);       
+}
+
+
+
+
+.video
+{
+  text-align: center;
 }

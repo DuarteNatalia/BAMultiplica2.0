@@ -5,37 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+
    </head>
 
-   <body>
-    <h1>AS22J</h1>
-    <H3>Control de Plagas</H3>
-    <br>
+     <body>
 
- <p> AS22J es una empresa Argentina dedicada al control de plagas, fumigaciones, desratizaciones, desinfecciones y limpieza de tanques</p>
- <br>
-   <img src="./Imagenes/Fumigador.jpg" alt="fumigador"/>
-    <br>
+      
+            <div id="logo">
+              
+                <img src="./Imagenes/LOGO.jpg" alt="LOGO" >
+              </div>
+         
+            </div>
+
+            <nav class="navbar navbar-expand-lg bg-light" >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  
+                  <ul class="navbar-nav">
+        
+                    <li class="nav-item" >
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >¿QUIÉNES SOMOS?</a
+                      >
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                      SERVICIOS
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">CONTROL DE PLAGAS</a></li>
+                        <li><a class="dropdown-item" href="#">LIMPIEZA DE TANQUES</a></li>
+                        <li><a class="dropdown-item" href="#">DESINFECCIONES</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTO</a>
+                  </li>
+                    
+                  </ul>
+                  </div>
+                
+              </div>
+            </nav>
+
+            
+            <img src="./Imagenes/portada-fumigacion.png" class="portada" alt="...">
+
+            <div class="AS22J">
+              <br>
+              
+            
+            <div class="row justify- content-center">
+            <h2 class="Titulo-servicio"> ¿QUIÉNES SOMOS? </H2>
+              <br>
+              
+              <div id="Definicion">
+                <P> AS22J es una empresa familiar fundada con el objetivo de ofrecer el mejor servicio de control de plagas a nuestros clientes y personalizar en caso un planeamiento de trabajo en el que estudiamos los tratamientos conjuntamente con nuestros clientes, aportando nuestra sugerencia profesional, logrando así la solución para cada tipo de problema.
+                <br>
+                Los servicio que realizamos en AS22J  están asesorados por el director técnico de la empresa.
+                Además nuestros técnicos cumplen con todas las normas de seguridad y legales para el desarrollo de las tareas asignadas.
+                <br>
+        
+              
+                </P>
+      
+              </div>
+              </div>
+       
+      <br>
+
+            
+            
+              
+      
+      <div class="row justify- text-center">
+        <h2 class="Titulo-servicio"> SERVICIOS</H2>
+        
+          <div class="col-md-4">
+            <img  class="card-img-top" src="./Imagenes/controldeplagas.jpg" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">CONTROL DE PLAGAS </h3 >
+                <p class="card-text">  </p>
+        </div>
+      </div>
+      
+
+      <div class="col-md-4">
+        
+          <img src="./Imagenes/TANQUE.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">LIMPIEZA DE TANQUES</h3>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      
+        
+      <div class="col-md-4">
+       
+          <img src="./Imagenes/DESINFECCIONES.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">DESINFECCIONES</h3>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      
+      <br>
+  
+      
+      <div class="video">
+       <H3>¡5 Claves para elegir una empresa de fumigación!</H3>
+
+        <iframe width="1000" height="350" src="https://www.youtube.com/embed/CXbrNHKH90Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+      </div>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CXbrNHKH90Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    <dl>
-        <dt>SERVICIOS</dt>
-        <hr>
-    </dl>
-    
-    <ol>
-        <li>Control de Plagas</li>
-        <li>Limpieza general</li>
-        <li>Limpieza de Tanques</li>
-    </ol>
    <hr>
 
-    <form>
+<!--- Formulario de contacto-->
+    <form class="formulario">
     <fieldset> 
-        <LEgend>Información Personal</LEgend>
-        <p>Compete el siguiente formulario</p>
+        <LEgend>Si aún no conoce nuestra empresa, póngase en contacto, estaremos encantados de brindeale nuestro mejor asesoramiento.</LEgend>
+        <p>DATOS DE CONTACTO</p>
         NOMBRE:
         <br>
         <input type="text" name="nombre">
@@ -44,7 +166,19 @@
         APELLIDO:
         <br>
         <input type="text" name="apellido">
+
+        <br>
+        TELÉFONO:
+        <br>
+        <input type="text" name="telefono">
+
+        <br>
+        CORREO ELECTRONICO:
+        <br>
+        <input type="text" name="correoelectronico">
     
+    
+
         <br> 
         TIPO SERVICIO: 
        <br>
@@ -59,6 +193,7 @@
         <input type="submit" value="ENVIAR"/>
     </fieldset>
     </form>
-
+<!--DATOS DE LA EMPRESA-->
+     
 </body>
 </html>
