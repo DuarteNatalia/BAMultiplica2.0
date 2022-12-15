@@ -1,99 +1,97 @@
 
 /* Fuente generica*/
 *{
-  font-family: cover;
-   
+  font-family: cover; 
+
   
 }
-/*Tamaño de Textos*/
-p{
-  font-size:150%
-}
 
-/*logo pequeño*/
+
+
+/*Tamaño de Textos*/
+
+
+/*Logo Empresa*/
 #logo{
   
   margin: auto;
-  height: 210px;
-  width: 300px;
+  height: 180px;
+  width: 180px;
   text-align: center;
   
  
 }
+/* Datos de Contacto whatsApp-Correo*/
+#LinkContacto{
+  text-align: end;  
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #055305;
+  
+}
+
 
 /*Tamaño Titulos*/
 .Titulos{
   font-size: 20px;
 }
 /* Barra de Navegación */
+
+/*Titulos de encabezados*/
+
 .container-fluid
 {
 
-  background-color:#055305;
-  text-align: center;
-  font-size: x-large;
+background-color: #055305;    
+color: white;
+font: size 160%;
+text-align: center;
+    
+
+}
+
+/* Reseña de la Empresa */
+.BreveReseña{
+  padding: 10%;
+  text-align: center;  
+  color: white;
+  font-size:150%
   
 }
-.nav ul li a:hover{
-  background-color:  #055305;
-}
-
-
-
-.AS22J
+#FondoQuienesSomos
 {
-    background-image: url();    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("/Imagenes/fumigacionBN.png") ;
+  background-size: cover;
+  width: 100%;
+
+  background-attachment: fixed;
+  
+
 }
 
-.card-title 
+
+/*imaganes de descripción de servicios*/
+#TipoServicio
 {
-    text-align: center;
-    
-
-
-}
-.card-text
-{
-    text-align: center;
-    background-image: url();    
-
-    
-}
-.Titulo-servicio
-{
-    text-align: center;
-    background-color: #055305;
-    
-    
+  margin: auto;
+  height: 130px;
+  width: 130px;
+  
 
 }
-.card-img-top
-{
-  width: 40% ;
-  opacity:80%;
-   
-}
 
+
+/*Imagen de Portada */
 .portada{
   width: 100% ;
   opacity:90%;
-  height:auto; 
-  
+  background-size: cover;
+
 }
 .formulario
 {
   text-align: center;
 }
-
-/*flexbox
-.Cajas{
-
-}
-*/
-
 .fondo
 {
     text-align: center;
@@ -103,7 +101,32 @@ p{
 
 
 
-.video
+.Contacto
 {
-  text-align: center;
+
+text-align: center;
 }
+
+section.contacto{
+
+  margin: 0px;
+    
+}
+
+
+
+.card-body ul
+{
+  
+  list-style: none;
+
+
+  
+
+  
+ 
+}
+
+  
+   
+    
