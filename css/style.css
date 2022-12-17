@@ -2,11 +2,14 @@
 /* Fuente generica*/
 *{
   font-family: cover; 
-
+ 
   
 }
 
-
+body
+{
+  overflow-x: hidden;
+}
 
 /*Tamaño de Textos*/
 
@@ -88,10 +91,24 @@ text-align: center;
   background-size: cover;
 
 }
-.formulario
+
+form
 {
-  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  color: #055305;
+  padding: 10px;
+  border-radius: 3px;
+
 }
+
+input,textarea
+{
+  outline: none;
+ 
+
+}
+
 .fondo
 {
     text-align: center;
@@ -119,14 +136,7 @@ section.contacto{
 {
   
   list-style: none;
-
-
   
-
-  
- 
 }
 
-  
-   
     
